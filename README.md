@@ -212,14 +212,14 @@ headers["x-unblock-expect"] = '{"element": ".star-wrapper__desc"}'
 headers["x-unblock-expect"] = '{"text": "reviews"}'
 ```
 
-👉 完整代码可参考 [g2_wait.py](https://github.com/bright-cn/web-unlocker/blob/main/src/g2_wait.py)
+👉 完整代码可参考 [g2_wait.py](https://github.com/bright-cn/web-unlocker-api/blob/main/src/g2_wait.py)
 
 #### 移动端 User-Agent 指定
 如果想使用移动端 User-Agent，而非桌面端，可以在用户名中加上 `-ua-mobile`：
 ```python
 username = f"brd-customer-{customer_id}-zone-{zone_name}-ua-mobile"
 ```
-👉 完整代码可参考 [g2_mobile.py](https://github.com/bright-cn/web-unlocker/blob/main/src/g2_mobile.py)
+👉 完整代码可参考 [g2_mobile.py](https://github.com/bright-cn/web-unlocker-api/blob/main/src/g2_mobile.py)
 
 #### 地理定位指定
 Web Unlocker 会自动选择最佳 IP 位置，但也可以自行指定目标位置：
@@ -235,7 +235,7 @@ username = f"brd-customer-{customer_id}-zone-{zone_name}-country-us-city-sanfran
 ```python
 username = f"brd-customer-{customer_id}-zone-{zone_name}-debug-full"
 ```
-👉 完整代码可参考 [g2_debug.py](https://github.com/bright-cn/web-unlocker/blob/main/src/g2_debug.py)
+👉 完整代码可参考 [g2_debug.py](https://github.com/bright-cn/web-unlocker-api/blob/main/src/g2_debug.py)
 
 #### 成功率统计
 可监控特定域名在 API 中的成功率：
