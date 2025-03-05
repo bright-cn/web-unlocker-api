@@ -1,6 +1,6 @@
 # Web Unlocker API
 
-[![宣传图](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://www.bright.cn/) 
+[![宣传图](https://github.com/bright-cn/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://www.bright.cn/) 
 
 [网络解锁器](https://www.bright.cn/products/web-unlocker) 是一个强大的网页抓取 API，可绕过复杂的反爬机制并访问任意网站。只需一次 API 调用，无需管理复杂的反机器人基础设施，即可获取干净的 HTML 或 JSON 响应。
 
