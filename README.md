@@ -22,7 +22,7 @@
 - [最后说明](#最后说明)
 
 ## 功能
-Web Unlocker 提供了全面的网页抓取能力：
+网络解锁器提供了全面的网页抓取能力：
 - 自动代理管理与 CAPTCHA 识别
 - 模拟真实用户行为
 - 内置 JavaScript 渲染
@@ -31,10 +31,10 @@ Web Unlocker 提供了全面的网页抓取能力：
 - 按成功次数付费的定价模式
 
 ## 开始使用
-在使用 Web Unlocker 前，请先根据此[快速开始指南](https://docs.brightdata.com/scraping-automation/web-unlocker/quickstart)完成对应配置。
+在使用网络解锁器前，请先根据此[快速开始指南](https://docs.brightdata.com/scraping-automation/web-unlocker/quickstart)完成对应配置。
 
 ### 直接使用 API
-这是集成 Web Unlocker 的推荐方式。
+这是集成网络解锁器的推荐方式。
 
 **示例：cURL 命令**  
 ```bash
@@ -51,7 +51,7 @@ curl -X POST "https://api.brightdata.com/request" \
 1. API 端点（Endpoint）：`https://api.brightdata.com/request`  
 2. Authorization 请求头：使用从 Web Unlocker API 区域生成的 [API 令牌](https://docs.brightdata.com/scraping-automation/web-unlocker/send-your-first-request#generating-your-bright-data-api-token)  
 3. 主要请求体参数：  
-   - `zone`: 你的 Web Unlocker 区域名称  
+   - `zone`: 你的网络解锁器区域名称  
    - `url`: 目标访问地址  
    - `format`: 响应格式（使用 `raw` 以获取网站源响应）
 
@@ -258,7 +258,7 @@ get_success_rate("g2.*")   # 获取该域名所有顶级后缀统计
 ```
 
 ## 最后说明
-通过 Web Unlocker，你可以轻松抓取最具防护性的网站。以下几点需要注意：
+通过网络解锁器，你可以轻松抓取最具防护性的网站。以下几点需要注意：
 
 1. **不兼容以下环境：**  
    - 浏览器（Chrome、Firefox、Edge 等）  
